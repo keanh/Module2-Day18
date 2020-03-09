@@ -14,7 +14,7 @@ public class OptimizedPrimeFactorization extends Thread {
         }
 
         int squareRoot = (int) Math.sqrt(n);
-        for (int i=2; i < squareRoot; i++){
+        for (int i=2; i <= squareRoot; i++){
             if (n % i == 0){
                 return false;
             }
